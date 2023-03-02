@@ -1,0 +1,353 @@
+@import "mixin/animation", "mixin/main", "animation", "main";
+
+#headerbanner {
+    width: 105%;
+    min-width: 3%;
+    height: 10%;
+    min-height: 5vw;
+    max-height: 20vw;
+
+    top: -.5%;
+    margin-left: -1vw;
+
+    position: fixed;
+    display: flex;
+
+    flex-direction: row;
+
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-between;
+
+    background-color: $primary-color;
+    border: .2px solid;
+    box-shadow: $shadow-normal;
+
+    z-index: 110;
+    overflow: hidden;
+
+    @include rainbow;
+
+    & > a {
+        margin-right: 2%;
+        margin-left: 8%;
+        text-decoration: none;
+    }
+    
+    // Child h7 of div gets a pointer and .disSelection
+    & > a > #logo {
+        width: 100%;
+        min-width: 20px;
+        height: 20%;
+        min-height: 20px;
+
+        cursor: pointer;
+
+        display: flex;
+
+        flex-wrap: wrap;
+        flex-direction: column;
+
+        order: 1;
+
+        align-items: center;
+        justify-content: center;
+
+        margin-right: 2%;
+        margin-left: 8%;
+
+        font-size: 3vw;
+
+        @include rainbow_text;
+        @extend .disSelection;
+
+        &:hover {
+            filter:saturate(50%);
+        }
+    }
+
+
+    /** ANCHOR About Me-Button */
+
+    & > #aboutme-button {
+        width: 20%;
+        height: 100%;
+
+        margin-right: 2%;
+
+        order: 2;
+
+        cursor: pointer;
+
+        align-items: center;
+        justify-content: center;
+
+        display: flex;
+
+        @extend .disSelection;
+
+        z-index: 87;
+    }
+
+    & > #aboutme-button > a {
+        width: 100%;
+        height: 100%;
+
+        align-items: center;
+        justify-content: right;
+
+        display: flex;
+        position: relative;
+
+        text-decoration: none;
+    }
+
+    & > #aboutme-button > a:hover {
+        #aboutme-ico {
+            opacity: 0.5;
+            transition: .3s;
+            @include jiggle;
+        }
+        #aboutme {
+            opacity: 0.5;
+            transition: .3s;
+        }
+    }
+
+    & > #aboutme-button > a:active {
+        #aboutme-ico {
+            opacity: 0.2;
+        }
+        #aboutme {
+            opacity: 0.2;
+        }
+    }
+
+    & > #aboutme-button > a > #aboutme-ico {
+        width: 15%;
+        min-width: 50px;
+        height: 20%;
+        min-height: 5.5vh;
+
+        flex-wrap: wrap;
+        flex-direction: column;
+
+        display: flex;
+        position: relative;
+
+        background-image: url("img/ico/aboutme.png");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        transition: 2.2s;
+    }
+    
+    & > #aboutme-button > a > #aboutme {
+        font-size: 2vw;
+    
+        display: flex;
+        position: relative;
+    
+        margin-left: 4%;
+    
+        flex-wrap: wrap;
+        flex-direction: column;
+    
+        z-index: 86;
+
+        transition: 2.2s;      
+    }
+
+
+    /** ANCHOR Projects-Button */
+
+    & > #projects-button {
+        width: 10%;
+        height: 100%;
+
+        margin-right: 1%;
+
+        order: 3;
+
+        cursor: pointer;
+
+        align-items: center;
+        justify-content: center;
+
+        display: flex;
+
+        @extend .disSelection;
+
+        z-index: 87;
+    }
+
+    & > #projects-button > a {
+        width: 100%;
+        height: 100%;
+
+        align-items: center;
+        justify-content: right;
+
+        display: flex;
+        position: relative;
+
+        text-decoration: none;
+    }
+
+    & > #projects-button > a:hover {
+        #projects-ico {
+            opacity: 0.5;
+            transition: .3s;
+            @include jiggle;
+        }
+        #projects {
+            transition: 0s;
+            opacity: 0.5;
+        }
+    }
+
+    & > #projects-button > a:active {
+        #projects-ico {
+            opacity: 0.2;
+        }
+        #projects {
+            opacity: 0.2;
+        }
+    }
+
+    & > #projects-button > a > #projects-ico {
+        width: 17%;
+        min-width: 50px;
+        height: 18%;
+        min-height: 5.5vh;
+
+        margin-right: 2%;
+        
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+        display: flex;
+        position: relative;
+        
+        background-image: url("img/ico/project.png");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        transition: 2.2s;
+    }
+    
+    & > #projects-button > a > #projects {
+        font-size: 2vw;
+    
+        display: flex;
+        position: relative;
+    
+        margin-left: 4%;
+    
+        flex-wrap: wrap;
+        flex-direction: column;
+    
+        z-index: 86;
+
+        transition: 2.2s;
+    }
+
+
+    /** ANCHOR Contact-Button */
+
+    & > #contact-button {
+        width: 30%;
+        height: 100%;
+
+        cursor: pointer;
+
+        order: 4;
+
+        margin-left: 2%;
+
+        flex-wrap: wrap;
+        flex-direction: column;
+
+        align-items: center;
+
+        display: flex;
+        position: relative;
+
+        @extend .disSelection;
+
+        z-index: 87;
+    }
+
+    & > #contact-button > a {
+        width: 100%;
+        height: 100%;
+
+        text-decoration: none;
+
+        align-items: center;
+
+        display: flex;
+        position: absolute;
+    }
+
+    & > #contact-button > a:hover {
+        #contact-ico {
+            opacity: 0.5;
+            transition: .3s;
+            @include jiggle;
+        }
+        #contact {
+            transition: 0s;
+            opacity: 0.5;
+        }
+    }
+
+    & > #contact-button > a:active {
+        #contact-ico {
+            opacity: 0.2;
+        }
+        #contact {
+            opacity: 0.2;
+        }
+    }
+
+    & > #contact-button > a > #contact-ico {
+        width: 6%;
+        min-width: 47px;
+        height: 10%;
+        min-height: 5.5vh;
+        
+        flex-wrap: wrap;
+        flex-direction: column;
+        
+        display: flex;
+        position: relative;
+        
+        background-image: url("img/ico/mail.png");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    
+        z-index: 86;
+
+        transition: 2.2s;
+    }
+    
+    & > #contact-button > a > #contact {
+        font-size: 2vw;
+    
+        display: flex;
+        position: relative;
+    
+        margin-left: 4%;
+    
+        flex-wrap: wrap;
+        flex-direction: column;
+    
+        z-index: 86;
+
+        transition: 2.2s;
+    }
+}
