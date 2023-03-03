@@ -704,7 +704,7 @@ section2::-webkit-scrollbar {
 }
 
 #sb1 {
-  width: 100%;
+  width: 105%;
   height: 220vh;
   top: 230vh;
   position: absolute;

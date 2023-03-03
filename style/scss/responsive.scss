@@ -29,17 +29,13 @@
 header > #headerbanner {
     & > a > #logo {
         @include media-down('sm'){
-            font-size: 6vw;
+            font-size: 7vw;
             width: 100%;
-
             height: 100%;
 
-            margin: 0;
-            left: -10%;
+            margin-left: -15%;
 
-            order: 1;
-
-            align-content: right;
+            align-content: center;
             justify-content: center;
         }
     }
