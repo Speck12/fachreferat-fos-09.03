@@ -4,9 +4,9 @@
 <head>
 
 	<meta charset="utf-8">
-	<title>Portfolio</title>
+	<title>Fachreferat WIN</title>
 	<meta name="author" content="Nicolas Ruprecht">
-	<meta name="description" content="Ein Übungsprojekt zur Vertiefung der ES6 Kenntnisse">
+	<meta name="description" content="fachreferat-fos-09.03.2023">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- Stylesheets -->
@@ -55,10 +55,11 @@
 
 		<section2 class="container smoothscroll">
 			<div id="sb1" class="section-box">
-
+				<div id="vpc">
+					<video id="video" onclick="playPause()" src="material/HTML Struktur - HTML 2.mp4"></video>
+				</div>
 				</div>
 			</div>
-
 		</section2>
 
 		<section3 class="container">
@@ -89,16 +90,22 @@
 	</footer>
 
 	<!-- Scripts -->
-	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-	<script src="scripts/typed_text.js"></script>
-
 	<script src="scripts/smoothmousewheel.js"></script>
 	<script src="scripts/cursor.js"></script>
 	<script src="scripts/main.js"></script>
 	<script src="scripts/effects.js"></script>
 	<script src="scripts/header.js"></script>
-	<script src="scripts/movingboxes.js"></script>
-	<script src="scripts/projects.js"></script>
+
+	<script>
+		var video = document.getElementById("video"); 
+
+		function playPause() { 
+			if (video.paused) 
+			video.play(); 
+			else 
+			video.pause(); 
+		} 
+	</script>
 
 </body>
 

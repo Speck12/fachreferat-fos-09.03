@@ -57,24 +57,6 @@ h10 {
   font-size: 7vw;
 }
 
-@-webkit-keyframes rainbow {
-  0% {
-    border-image: linear-gradient(to bottom right, #2c90fc 0%, #1500ff 50%, #8c00ff 100%);
-    border-image-slice: 10%;
-    box-shadow: #8c00ff 0px 2px 12px -12px inset, #8c00ff 0px 3px 30px 0px;
-  }
-  50% {
-    border-image: linear-gradient(to bottom right, #1500ff 0%, #8c00ff 50%, #2c90fc 100%);
-    border-image-slice: 10%;
-    box-shadow: #1500ff 0px 2px 7px -12px inset, #1500ff 0px 3px 30px 0px;
-  }
-  100% {
-    border-image: linear-gradient(to bottom right, #8c00ff 0%, #2c90fc 50%, #8c00ff 100%);
-    border-image-slice: 10%;
-    box-shadow: #2c90fc 0px 2px 15px -18px inset, #2c90fc 0px 3px 30px 0px;
-  }
-}
-
 @keyframes rainbow {
   0% {
     -o-border-image: linear-gradient(to bottom right, #2c90fc 0%, #1500ff 50%, #8c00ff 100%);
@@ -93,29 +75,6 @@ h10 {
        border-image: linear-gradient(to bottom right, #8c00ff 0%, #2c90fc 50%, #8c00ff 100%);
     border-image-slice: 10%;
     box-shadow: #2c90fc 0px 2px 15px -18px inset, #2c90fc 0px 3px 30px 0px;
-  }
-}
-@-webkit-keyframes rainbow_text {
-  0% {
-    background: #8c00ff;
-    -webkit-background-clip: text;
-            background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-shadow: 0px 3px 10px #8c00ff;
-  }
-  50% {
-    background: linear-gradient(to bottom right, #8c00ff 0%, #2c90fc 70%, #8c00ff 100%);
-    -webkit-background-clip: text;
-            background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-shadow: 0px 3px 10px #1500ff;
-  }
-  100% {
-    background: #2c90fc;
-    -webkit-background-clip: text;
-            background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-shadow: 0px 3px 10px #2c90fc;
   }
 }
 @keyframes rainbow_text {
@@ -141,17 +100,6 @@ h10 {
     text-shadow: 0px 3px 10px #2c90fc;
   }
 }
-@-webkit-keyframes rainbow_inset {
-  0% {
-    box-shadow: inset 0px 0px 550px #380066;
-  }
-  50% {
-    box-shadow: inset 0px 0px 1550px #080066;
-  }
-  100% {
-    box-shadow: inset 0px 0px 1750px #036ad8;
-  }
-}
 @keyframes rainbow_inset {
   0% {
     box-shadow: inset 0px 0px 550px #380066;
@@ -161,17 +109,6 @@ h10 {
   }
   100% {
     box-shadow: inset 0px 0px 1750px #036ad8;
-  }
-}
-@-webkit-keyframes rainbow_outset {
-  0% {
-    box-shadow: 0px 0px 10px #380066;
-  }
-  50% {
-    box-shadow: 0px 0px 10px #080066;
-  }
-  100% {
-    box-shadow: 0px 0px 10px #036ad8;
   }
 }
 @keyframes rainbow_outset {
@@ -185,31 +122,12 @@ h10 {
     box-shadow: 0px 0px 10px #036ad8;
   }
 }
-@-webkit-keyframes spin {
-  0% {
-    transform: rotate(1deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
 @keyframes spin {
   0% {
     transform: rotate(1deg);
   }
   100% {
     transform: rotate(360deg);
-  }
-}
-@-webkit-keyframes jiggle {
-  0% {
-    transform: rotate(12deg);
-  }
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(-12deg);
   }
 }
 @keyframes jiggle {
@@ -223,17 +141,6 @@ h10 {
     transform: rotate(-12deg);
   }
 }
-@-webkit-keyframes boxcolor {
-  0% {
-    filter: hue-rotate(270deg);
-  }
-  50% {
-    filter: hue-rotate(360deg);
-  }
-  100% {
-    filter: hue-rotate(270deg);
-  }
-}
 @keyframes boxcolor {
   0% {
     filter: hue-rotate(270deg);
@@ -243,20 +150,6 @@ h10 {
   }
   100% {
     filter: hue-rotate(270deg);
-  }
-}
-@-webkit-keyframes boxflow {
-  0% {
-    transform: translateY(-5%) translateX(6%);
-  }
-  50% {
-    transform: translateY(10%) translateX(-10%);
-  }
-  75% {
-    transform: translateY(-20%) translateX(2%);
-  }
-  100% {
-    transform: translateY(15%) translateX(-5%);
   }
 }
 @keyframes boxflow {
@@ -273,17 +166,6 @@ h10 {
     transform: translateY(15%) translateX(-5%);
   }
 }
-@-webkit-keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
@@ -293,17 +175,6 @@ h10 {
   }
   100% {
     background-position: 0% 50%;
-  }
-}
-@-webkit-keyframes ue {
-  0% {
-    text-shadow: 6px 1px 3px #333333, 0px 3px 10px #8c00ff;
-  }
-  50% {
-    text-shadow: 4px 1px 3px #333333;
-  }
-  100% {
-    text-shadow: 8px 1px 3px #333333;
   }
 }
 @keyframes ue {
@@ -317,40 +188,15 @@ h10 {
     text-shadow: 8px 1px 3px #333333;
   }
 }
-@-webkit-keyframes dis_ue {
-  0%, 100% {
-    text-shadow: none;
-  }
-}
 @keyframes dis_ue {
   0%, 100% {
     text-shadow: none;
-  }
-}
-@-webkit-keyframes blend_in {
-  0% {
-    filter: opacity(0%) grayscale(100%);
-    padding-top: 5%;
-  }
-  100% {
-    filter: opacity(100%) grayscale(0%);
-    padding-top: 0%;
   }
 }
 @keyframes blend_in {
   0% {
     filter: opacity(0%) grayscale(100%);
     padding-top: 5%;
-  }
-  100% {
-    filter: opacity(100%) grayscale(0%);
-    padding-top: 0%;
-  }
-}
-@-webkit-keyframes blend_in2 {
-  0% {
-    filter: opacity(0%) grayscale(100%);
-    padding-top: 20%;
   }
   100% {
     filter: opacity(100%) grayscale(0%);
@@ -367,16 +213,6 @@ h10 {
     padding-top: 0%;
   }
 }
-@-webkit-keyframes blend_in3 {
-  0% {
-    filter: opacity(0%) grayscale(100%);
-    padding-right: 20%;
-  }
-  100% {
-    filter: opacity(100%) grayscale(0%);
-    padding-right: 0%;
-  }
-}
 @keyframes blend_in3 {
   0% {
     filter: opacity(0%) grayscale(100%);
@@ -387,16 +223,6 @@ h10 {
     padding-right: 0%;
   }
 }
-@-webkit-keyframes blend_in4 {
-  0% {
-    filter: opacity(0%) grayscale(100%);
-    padding-left: 20%;
-  }
-  100% {
-    filter: opacity(100%) grayscale(0%);
-    padding-left: 0%;
-  }
-}
 @keyframes blend_in4 {
   0% {
     filter: opacity(0%) grayscale(100%);
@@ -405,17 +231,6 @@ h10 {
   100% {
     filter: opacity(100%) grayscale(0%);
     padding-left: 0%;
-  }
-}
-@-webkit-keyframes cursor {
-  0% {
-    transform: translateX(-7px) scale(1);
-  }
-  50% {
-    transform: translateX(-7px) scale(2);
-  }
-  100% {
-    transform: translateX(-7px) scale(1);
   }
 }
 @keyframes cursor {
@@ -760,8 +575,7 @@ main {
 .disSelection {
   -webkit-user-select: none;
   -moz-user-select: none;
-  -ms-user-select: none;
-      user-select: none;
+  user-select: none;
 }
 
 .pointer {
@@ -853,20 +667,13 @@ main {
   cursor: pointer;
 }
 .imgviewer > span p > a:hover {
-  -webkit-animation: rainbow_text 10s;
-          animation: rainbow_text 10s;
-  -webkit-animation-timing-function: ease-out;
-          animation-timing-function: ease-out;
-  -webkit-animation-delay: 0;
-          animation-delay: 0;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-fill-mode: none;
-          animation-fill-mode: none;
-  -webkit-animation-play-state: running;
-          animation-play-state: running;
+  animation: rainbow_text 10s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
 }
 .imgviewer > span p > a:active {
   filter: opacity(50%);
@@ -900,20 +707,13 @@ main {
   box-shadow: 1px 3px 10px black, 1px 1px 10px black;
   z-index: 108;
   overflow: hidden;
-  -webkit-animation: rainbow 15s;
-          animation: rainbow 15s;
-  -webkit-animation-timing-function: ease-out;
-          animation-timing-function: ease-out;
-  -webkit-animation-delay: 0;
-          animation-delay: 0;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-fill-mode: none;
-          animation-fill-mode: none;
-  -webkit-animation-play-state: running;
-          animation-play-state: running;
+  animation: rainbow 15s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
 }
 @media all and (max-width: 768px) {
   #footer-banner {
