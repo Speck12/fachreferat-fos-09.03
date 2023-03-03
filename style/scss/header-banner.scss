@@ -4,8 +4,8 @@
     width: 105%;
     min-width: 3%;
     height: 10%;
-    min-height: 5vw;
-    max-height: 20vw;
+    min-height: 6vw;
+    max-height: 18vw;
 
     top: -.5%;
     margin-left: -1vw;
@@ -29,15 +29,15 @@
     @include rainbow;
 
     & > a {
-        margin-right: 60vw;
+        margin-right: 2%;
         margin-left: 40vw;
         text-decoration: none;
     }
     
     // Child h7 of div gets a pointer and .disSelection
     & > a > #logo {
-        width: 100%;
-        min-width: 20px;
+        width: 105%;
+        min-width: 22vw;
         height: 20%;
         min-height: 20px;
 
@@ -49,9 +49,6 @@
 
         align-items: center;
         justify-content: center;
-
-        margin-right: 2%;
-        margin-left: 8%;
 
         font-size: 3vw;
 

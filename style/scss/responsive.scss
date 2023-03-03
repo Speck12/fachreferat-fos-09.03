@@ -2,38 +2,17 @@
 
 // ! ANCHOR Cursor-Circle
 
-#cursor {
-    width: 14px;
-    height: 14px;
-
-    position: fixed;
-
-    border: 1px solid white;
-    border-radius: 50%;
-
-    transform: translateX(-7px);
-    filter: opacity(80%);
-
-    transition-duration: 10ms;
-    transition-timing-function: ease-out;
-
-    pointer-events: none;
-
-    z-index: 200;
-
-}
-
 // ! ANCHOR Header-Banner
 // LINK ./header-banner.scss:3
 
 header > #headerbanner {
     & > a > #logo {
         @include media-down('sm'){
-            font-size: 7vw;
+            font-size: 6vw;
             width: 100%;
             height: 100%;
 
-            margin-left: -15%;
+            margin-left: -9%;
 
             align-content: center;
             justify-content: center;
@@ -91,6 +70,10 @@ section1 {
 section2 > #sb1 {
     @include media-down('md'){
         height: 160vh;
+    }
+
+    & > #vpc {
+        margin-right: 0;
     }
 }
 

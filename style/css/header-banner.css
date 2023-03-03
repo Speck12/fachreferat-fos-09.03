@@ -696,8 +696,8 @@ main {
   width: 105%;
   min-width: 3%;
   height: 10%;
-  min-height: 5vw;
-  max-height: 20vw;
+  min-height: 6vw;
+  max-height: 18vw;
   top: -0.5%;
   margin-left: -1vw;
   position: fixed;
@@ -720,13 +720,13 @@ main {
   animation-play-state: running;
 }
 #headerbanner > a {
-  margin-right: 60vw;
+  margin-right: 2%;
   margin-left: 40vw;
   text-decoration: none;
 }
 #headerbanner > a > #logo {
-  width: 100%;
-  min-width: 20px;
+  width: 105%;
+  min-width: 22vw;
   height: 20%;
   min-height: 20px;
   cursor: pointer;
@@ -734,8 +734,6 @@ main {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin-right: 2%;
-  margin-left: 8%;
   font-size: 3vw;
   animation: rainbow_text 10s;
   animation-timing-function: ease-out;

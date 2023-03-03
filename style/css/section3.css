@@ -706,8 +706,9 @@ section3 {
 
 #par1_2 {
   width: 120vw;
-  height: 100vh;
-  top: 90px;
+  height: 120vh;
+  top: 110px;
+  margin-left: 10vw;
   position: absolute;
   --show: none;
   display: var(--show);
@@ -739,7 +740,7 @@ section3 {
 #par3_2 {
   width: 100%;
   height: 100%;
-  top: 550px;
+  top: 590px;
   position: absolute;
   --show: none;
   display: var(--show);
@@ -754,7 +755,7 @@ section3 {
 #par4_2 {
   width: 100%;
   height: 100%;
-  top: 730px;
+  top: 790px;
   position: absolute;
   --show: none;
   display: var(--show);
@@ -767,9 +768,9 @@ section3 {
 }
 
 #par5_2 {
-  width: 100vw;
-  height: 100%;
-  top: 580px;
+  width: 105vw;
+  height: 130%;
+  top: 540px;
   position: absolute;
   --show: none;
   display: var(--show);
