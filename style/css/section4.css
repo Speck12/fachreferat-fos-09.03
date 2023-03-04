@@ -553,6 +553,15 @@ body {
   z-index: 1;
   -ms-overflow-style: none;
   scrollbar-width: none;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  scroll-snap-points-y: repeat(300%);
+  scroll-snap-stop: normal;
+  scroll-snap-align: start;
+  scroll-padding: 0px;
+  scroll-margin: 0px;
+  overscroll-behavior: none;
+  touch-action: manipulation;
 }
 body::-webkit-scrollbar {
   display: none;
