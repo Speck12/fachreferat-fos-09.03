@@ -56,10 +56,10 @@
 		<section2 class="container smoothscroll">
 
 			<div id="sb1" class="section-box">
-				
 				<div id="vpc">
 					<h6>HTML</h6>
-					<video id="video" onclick="playPause()" src="material/HTML Struktur - HTML 2.mp4"></video>
+					<video id="video1" onclick="playPause1()" src="material/HTML Struktur - HTML 2.mp4"></video>
+					<h1><a href="https://www.youtube.com/watch?v=F6JwGj5LJMY" target="_blank">( Informatik - simpleclub 2019)</a></h1>
 				</div>
 			</div>
 
@@ -75,6 +75,11 @@
 
 		<section4>
 			<div id="sb2" class="section-box">
+				<div id="vpc2">
+					<h6>CSS</h6>
+					<video id="video2" onclick="playPause2()" src="material/CSS - Einfuehrung.mp4"></video>
+					<h1><a href="https://www.youtube.com/watch?v=BGb2dgqTxoY" target="_blank">( Informatik - simpleclub 2019)</a></h1>
+				</div>
 			</div>
 		</section4>
 	</main>
@@ -100,14 +105,23 @@
 	<script src="scripts/header.js"></script>
 
 	<script>
-		var video = document.getElementById("video"); 
+		var video1 = document.getElementById("video1"); 
 
-		function playPause() { 
-			if (video.paused) 
-			video.play(); 
+		function playPause1() { 
+			if (video1.paused) 
+			video1.play(); 
 			else 
-			video.pause(); 
-		} 
+			video1.pause(); 
+		}
+
+		var video2 = document.getElementById("video2"); 
+
+		function playPause2() { 
+			if (video2.paused) 
+			video2.play(); 
+			else 
+			video2.pause(); 
+		}
 	</script>
 
 </body>

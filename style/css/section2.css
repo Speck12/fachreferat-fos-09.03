@@ -728,12 +728,10 @@ section2::-webkit-scrollbar {
 }
 
 #vpc {
-  width: 80vw;
-  height: 70vw;
-  margin-bottom: 60%;
-  margin-top: 20%;
-  margin-right: 5%;
-  position: absolute;
+  width: 70vw;
+  height: 60vw;
+  margin-right: 6%;
+  position: relative;
   display: flex;
   flex-direction: column;
   order: 1;
@@ -752,9 +750,12 @@ section2::-webkit-scrollbar {
   animation-play-state: running;
 }
 #vpc > h6 {
+  height: 8vw;
+  margin: 0;
+  margin-top: 1vh;
+  margin-bottom: 6vh;
   position: relative;
   display: flex;
-  align-content: center;
   justify-content: center;
   animation: rainbow_text 10s;
   animation-timing-function: ease-out;
@@ -763,4 +764,23 @@ section2::-webkit-scrollbar {
   animation-iteration-count: infinite;
   animation-fill-mode: none;
   animation-play-state: running;
+}
+#vpc > h1 {
+  margin-top: 5vh;
+  height: 10%;
+  justify-content: center;
+  display: flex;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+#vpc > h1:hover {
+  opacity: 0.7;
+}
+#vpc > h1:active {
+  opacity: 0.5;
+}
+#vpc > h1 > a {
+  text-decoration: none;
+  color: blueviolet;
 }/*# sourceMappingURL=section2.css.map */

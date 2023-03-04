@@ -694,8 +694,8 @@ main {
 
 #footer-banner {
   width: 105%;
-  height: 24vh;
-  top: 735vh;
+  height: 23vh;
+  top: 748vh;
   position: absolute;
   display: flex;
   flex-direction: row;
@@ -737,7 +737,7 @@ main {
 }
 #footer-banner div > h1 {
   margin: 0;
-  margin-top: 15%;
+  margin-top: 10%;
   font-size: 38px;
 }
 @media all and (max-width: 768px) {
@@ -751,7 +751,7 @@ main {
 }
 @media all and (max-width: 768px) {
   #footer-banner div > p {
-    font-size: 13px;
+    font-size: 12px;
   }
 }
 #footer-banner div > p > a {
