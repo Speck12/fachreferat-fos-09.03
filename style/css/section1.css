@@ -18,43 +18,43 @@ p {
 }
 
 h1 {
-  font-size: 2.5vw;
+  font-size: 2.8vw;
 }
 
 h2 {
-  font-size: 3vw;
+  font-size: 3.6vw;
 }
 
 h3 {
-  font-size: 3.5vw;
+  font-size: 4.4vw;
 }
 
 h4 {
-  font-size: 4vw;
+  font-size: 5.2vw;
 }
 
 h5 {
-  font-size: 4.5vw;
-}
-
-h6 {
-  font-size: 5vw;
-}
-
-h7 {
-  font-size: 5.5vw;
-}
-
-h8 {
   font-size: 6vw;
 }
 
+h6 {
+  font-size: 6.8vw;
+}
+
+h7 {
+  font-size: 7.6vw;
+}
+
+h8 {
+  font-size: 8.4vw;
+}
+
 h9 {
-  font-size: 6.5vw;
+  font-size: 9.2vw;
 }
 
 h10 {
-  font-size: 7vw;
+  font-size: 10vw;
 }
 
 @keyframes rainbow {
@@ -281,43 +281,43 @@ p {
 }
 
 h1 {
-  font-size: 2.5vw;
+  font-size: 2.8vw;
 }
 
 h2 {
-  font-size: 3vw;
+  font-size: 3.6vw;
 }
 
 h3 {
-  font-size: 3.5vw;
+  font-size: 4.4vw;
 }
 
 h4 {
-  font-size: 4vw;
+  font-size: 5.2vw;
 }
 
 h5 {
-  font-size: 4.5vw;
-}
-
-h6 {
-  font-size: 5vw;
-}
-
-h7 {
-  font-size: 5.5vw;
-}
-
-h8 {
   font-size: 6vw;
 }
 
+h6 {
+  font-size: 6.8vw;
+}
+
+h7 {
+  font-size: 7.6vw;
+}
+
+h8 {
+  font-size: 8.4vw;
+}
+
 h9 {
-  font-size: 6.5vw;
+  font-size: 9.2vw;
 }
 
 h10 {
-  font-size: 7vw;
+  font-size: 10vw;
 }
 
 @keyframes rainbow {
@@ -544,43 +544,43 @@ p {
 }
 
 h1 {
-  font-size: 2.5vw;
+  font-size: 2.8vw;
 }
 
 h2 {
-  font-size: 3vw;
+  font-size: 3.6vw;
 }
 
 h3 {
-  font-size: 3.5vw;
+  font-size: 4.4vw;
 }
 
 h4 {
-  font-size: 4vw;
+  font-size: 5.2vw;
 }
 
 h5 {
-  font-size: 4.5vw;
-}
-
-h6 {
-  font-size: 5vw;
-}
-
-h7 {
-  font-size: 5.5vw;
-}
-
-h8 {
   font-size: 6vw;
 }
 
+h6 {
+  font-size: 6.8vw;
+}
+
+h7 {
+  font-size: 7.6vw;
+}
+
+h8 {
+  font-size: 8.4vw;
+}
+
 h9 {
-  font-size: 6.5vw;
+  font-size: 9.2vw;
 }
 
 h10 {
-  font-size: 7vw;
+  font-size: 10vw;
 }
 
 * {
@@ -772,7 +772,7 @@ section1::-webkit-scrollbar {
   background-size: cover;
   background-repeat: no-repeat;
   background-origin: inherit;
-  transition: 0.1s;
+  transition: 0.08s;
   z-index: 80;
 }
 
@@ -787,7 +787,7 @@ section1::-webkit-scrollbar {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  transition: 0.1s;
+  transition: 0.08s;
   z-index: 83;
 }
 
@@ -802,7 +802,7 @@ section1::-webkit-scrollbar {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  transition: 0.1s;
+  transition: 0.08s;
   z-index: 82;
 }
 
@@ -817,7 +817,7 @@ section1::-webkit-scrollbar {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  transition: 0.1s;
+  transition: 0.08s;
   z-index: 81;
 }
 
@@ -832,7 +832,7 @@ section1::-webkit-scrollbar {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  transition: 0.1s;
+  transition: 0.08s;
   z-index: 85;
 }
 
@@ -845,7 +845,7 @@ section1::-webkit-scrollbar {
   position: absolute;
   --show: none;
   display: var(--show);
-  transition: 0.1s;
+  transition: 0.08s;
   z-index: 82;
   align-content: center;
   justify-content: center;

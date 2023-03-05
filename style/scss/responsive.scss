@@ -74,11 +74,23 @@ section1 {
 
 section2 > #sb1 {
     @include media-down('md'){
-        height: 160vh;
+        height: 190vh;
     }
 
     & > #vpc {
-        margin-right: 0;
+        @include media-down('md'){
+            width: 90vw;
+            height: 70vw;
+        }
+
+        & > h6 {
+            height: 20vh;
+            font-size: 250%;
+        }
+        & > h1 {
+            height: 20vh;
+            font-size: 120%;
+        }
     }
 }
 
@@ -86,6 +98,28 @@ section3 {
     #par1_2 { // ? ANCHOR parallax background
         @include media-down('sm'){
             left: 20%;
+        }
+    }
+}
+
+section4 > #sb2 {
+    @include media-down('md'){
+        height: 170vh;
+    }
+    
+    #vpc2 { // ? ANCHOR parallax background
+        @include media-down('lg'){
+            width: 90vw;
+            height: 70vw;
+        }
+
+        & > h6 {
+            height: 20vh;
+            font-size: 250%;
+        }
+        & > h1 {
+            height: 20vh;
+            font-size: 120%;
         }
     }
 }

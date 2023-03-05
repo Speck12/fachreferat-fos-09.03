@@ -18,43 +18,43 @@ p {
 }
 
 h1 {
-  font-size: 2.5vw;
+  font-size: 2.8vw;
 }
 
 h2 {
-  font-size: 3vw;
+  font-size: 3.6vw;
 }
 
 h3 {
-  font-size: 3.5vw;
+  font-size: 4.4vw;
 }
 
 h4 {
-  font-size: 4vw;
+  font-size: 5.2vw;
 }
 
 h5 {
-  font-size: 4.5vw;
-}
-
-h6 {
-  font-size: 5vw;
-}
-
-h7 {
-  font-size: 5.5vw;
-}
-
-h8 {
   font-size: 6vw;
 }
 
+h6 {
+  font-size: 6.8vw;
+}
+
+h7 {
+  font-size: 7.6vw;
+}
+
+h8 {
+  font-size: 8.4vw;
+}
+
 h9 {
-  font-size: 6.5vw;
+  font-size: 9.2vw;
 }
 
 h10 {
-  font-size: 7vw;
+  font-size: 10vw;
 }
 
 @keyframes rainbow {
@@ -281,43 +281,43 @@ p {
 }
 
 h1 {
-  font-size: 2.5vw;
+  font-size: 2.8vw;
 }
 
 h2 {
-  font-size: 3vw;
+  font-size: 3.6vw;
 }
 
 h3 {
-  font-size: 3.5vw;
+  font-size: 4.4vw;
 }
 
 h4 {
-  font-size: 4vw;
+  font-size: 5.2vw;
 }
 
 h5 {
-  font-size: 4.5vw;
-}
-
-h6 {
-  font-size: 5vw;
-}
-
-h7 {
-  font-size: 5.5vw;
-}
-
-h8 {
   font-size: 6vw;
 }
 
+h6 {
+  font-size: 6.8vw;
+}
+
+h7 {
+  font-size: 7.6vw;
+}
+
+h8 {
+  font-size: 8.4vw;
+}
+
 h9 {
-  font-size: 6.5vw;
+  font-size: 9.2vw;
 }
 
 h10 {
-  font-size: 7vw;
+  font-size: 10vw;
 }
 
 @keyframes rainbow {
@@ -544,43 +544,43 @@ p {
 }
 
 h1 {
-  font-size: 2.5vw;
+  font-size: 2.8vw;
 }
 
 h2 {
-  font-size: 3vw;
+  font-size: 3.6vw;
 }
 
 h3 {
-  font-size: 3.5vw;
+  font-size: 4.4vw;
 }
 
 h4 {
-  font-size: 4vw;
+  font-size: 5.2vw;
 }
 
 h5 {
-  font-size: 4.5vw;
-}
-
-h6 {
-  font-size: 5vw;
-}
-
-h7 {
-  font-size: 5.5vw;
-}
-
-h8 {
   font-size: 6vw;
 }
 
+h6 {
+  font-size: 6.8vw;
+}
+
+h7 {
+  font-size: 7.6vw;
+}
+
+h8 {
+  font-size: 8.4vw;
+}
+
 h9 {
-  font-size: 6.5vw;
+  font-size: 9.2vw;
 }
 
 h10 {
-  font-size: 7vw;
+  font-size: 10vw;
 }
 
 * {
@@ -763,7 +763,7 @@ section3 {
   background-size: cover;
   background-repeat: no-repeat;
   filter: saturate(120%) hue-rotate(30deg);
-  transition: 0.1s;
+  transition: 0.07s;
   z-index: 91;
 }
 
@@ -779,7 +779,7 @@ section3 {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  transition: 0.1s;
+  transition: 0.07s;
   z-index: 92;
 }
 
@@ -794,7 +794,7 @@ section3 {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  transition: 0.1s;
+  transition: 0.07s;
   z-index: 93;
 }
 
@@ -809,7 +809,7 @@ section3 {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  transition: 0.1s;
+  transition: 0.07s;
   z-index: 94;
 }
 
@@ -824,6 +824,6 @@ section3 {
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
-  transition: 0.1s;
+  transition: 0.07s;
   z-index: 95;
 }/*# sourceMappingURL=section3.css.map */

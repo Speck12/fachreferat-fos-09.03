@@ -45,15 +45,46 @@
 
 @media all and (max-width: 768px) {
   section2 > #sb1 {
-    height: 160vh;
+    height: 190vh;
   }
 }
-section2 > #sb1 > #vpc {
-  margin-right: 0;
+@media all and (max-width: 768px) {
+  section2 > #sb1 > #vpc {
+    width: 90vw;
+    height: 70vw;
+  }
+}
+section2 > #sb1 > #vpc > h6 {
+  height: 20vh;
+  font-size: 250%;
+}
+section2 > #sb1 > #vpc > h1 {
+  height: 20vh;
+  font-size: 120%;
 }
 
 @media all and (max-width: 920px) {
   section3 #par1_2 {
     left: 20%;
   }
+}
+
+@media all and (max-width: 768px) {
+  section4 > #sb2 {
+    height: 170vh;
+  }
+}
+@media all and (max-width: 1024px) {
+  section4 > #sb2 #vpc2 {
+    width: 90vw;
+    height: 70vw;
+  }
+}
+section4 > #sb2 #vpc2 > h6 {
+  height: 20vh;
+  font-size: 250%;
+}
+section4 > #sb2 #vpc2 > h1 {
+  height: 20vh;
+  font-size: 120%;
 }/*# sourceMappingURL=responsive.css.map */
