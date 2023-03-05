@@ -24,6 +24,10 @@ section1 {
 #sb0 {
     width: 100%;
     height: 20%;
+
+    & > .container > h6 {
+        z-index: 120;
+    }
 }
 
 #par1 { // ? NOTE parallax background
@@ -126,4 +130,29 @@ section1 {
     transition: $transition;
 
     z-index: 85;
+}
+
+#par6 { 
+    width: 100%;
+    height: 100%;
+    font-weight: 800;
+
+    top: 44vh;
+    text-align: center;
+    position: absolute;
+    --show: none;
+    display: var(--show);
+
+    transition: $transition;
+
+    z-index: 82;
+    align-content: center;
+    justify-content: center;
+
+    @include rainbow_text2;
+
+    & > h1 {
+        text-align: center;
+        margin-top: -19vh;
+    }
 }

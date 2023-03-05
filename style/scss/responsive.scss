@@ -45,20 +45,25 @@ section1 {
     & > #par6 {
 
         @include media-down('xs'){
-            top: -20%;
-            left: 0;
+            font-size: 80%;
         }
     
         @include media-down('lg'){
             margin:auto;
-            left: 0;
         }
     }
 
-    & > #par6 > h5 {
-
+    & > #par6 > h6 {
         @include media-down('ws'){
-            font-size: 380%;
+            font-size: 200%;
+
+        }
+    }
+
+    & > #par6 > h1 {
+        @include media-down('ws'){
+            font-size: 150%;
+            margin:-5vh;
         }
     }
 }

@@ -19,6 +19,16 @@
     animation-play-state: running;
 }
 
+@mixin rainbow_text2() {
+    animation: rainbow_text2 10s;
+    animation-timing-function: ease-out;
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
 @mixin rainbow_inset() {
     animation: rainbow_inset 10s;
     animation-timing-function: ease-out;

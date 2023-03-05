@@ -98,6 +98,29 @@ h10 {
     text-shadow: 0px 3px 10px #2c90fc;
   }
 }
+@keyframes rainbow_text2 {
+  0% {
+    background: linear-gradient(to bottom right, white 0%, #7a5bd9 70%, #2b00ff 100%);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 0px 75px white;
+  }
+  50% {
+    background: linear-gradient(to bottom right, white 0%, #7a5bd9 70%, #2b00ff 100%);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 0px 75px white;
+  }
+  100% {
+    background: linear-gradient(to bottom right, white 0%, #7a5bd9 70%, #2b00ff 100%);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 0px 75px white;
+  }
+}
 @keyframes rainbow_inset {
   0% {
     box-shadow: inset 0px 0px 550px #380066;
@@ -311,15 +334,6 @@ body {
   z-index: 1;
   -ms-overflow-style: none;
   scrollbar-width: none;
-  scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
-  scroll-snap-points-y: repeat(300%);
-  scroll-snap-stop: normal;
-  scroll-snap-align: start;
-  scroll-padding: 0px;
-  scroll-margin: 0px;
-  overscroll-behavior: none;
-  touch-action: manipulation;
 }
 body::-webkit-scrollbar {
   display: none;

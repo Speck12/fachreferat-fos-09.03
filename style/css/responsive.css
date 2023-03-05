@@ -23,19 +23,23 @@
 }
 @media all and (max-width: 375px) {
   section1 > #par6 {
-    top: -20%;
-    left: 0;
+    font-size: 80%;
   }
 }
 @media all and (max-width: 1024px) {
   section1 > #par6 {
     margin: auto;
-    left: 0;
   }
 }
 @media all and (max-width: 1440px) {
-  section1 > #par6 > h5 {
-    font-size: 380%;
+  section1 > #par6 > h6 {
+    font-size: 200%;
+  }
+}
+@media all and (max-width: 1440px) {
+  section1 > #par6 > h1 {
+    font-size: 150%;
+    margin: -5vh;
   }
 }
 
